@@ -1,10 +1,8 @@
 name: Auto Commit
-
 on:
   schedule:
     - cron: "30 11 * * *"   # 17:00 IST
   workflow_dispatch:
-
 jobs:
   commit:
     runs-on: ubuntu-latest
@@ -21,8 +19,14 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Run Update Script
-        run: node scripts/update.js
+      - name: Make 10 commits
+        run: |
+          for i in {1..5}
+          do
+            node scripts/update.js
+            git add .
+            git commit -m "Auto commit $i"
+          done
 
       - name: Commit Changes
         run: |
