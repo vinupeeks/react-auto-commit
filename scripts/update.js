@@ -1,4 +1,4 @@
-const fs = require("fs");
+import fs from "fs";
 
 const file = "src/autoUpdate.txt";
 const time = new Date().toLocaleString();
