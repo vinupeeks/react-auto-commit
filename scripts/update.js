@@ -7,14 +7,3 @@ fs.appendFileSync(file, `Update: ${time}\n`);
 
 console.log("Updated:", time);
 console.log("Updated:", time);
-console.log("Updated:", time);
-console.log("Updated:", time);
-console.log("Updated:", time);
-console.log("Updated:", time);
-console.log("Updated:", time);
-console.log("Updated:", time);
-console.log("Updated:", time);
-console.log("Updated:", time);
-console.log("Updated:", time);
-console.log("Updated:", time);
-console.log("Updated:", time);
