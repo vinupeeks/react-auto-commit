@@ -2,7 +2,7 @@ name: Auto Commit
 
 on:
   schedule:
-    - cron: "50 11 * * *"   # 17:10 IST
+    - cron: "50 11 * * *"   # 17:20 IST
   workflow_dispatch:
 
 permissions:
