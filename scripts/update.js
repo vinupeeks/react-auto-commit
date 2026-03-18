@@ -25,5 +25,3 @@ console.log("Updated:", time);
 console.log("Updated:", time);
 console.log("Updated:", time);
 console.log("Updated:", time);
-console.log("Updated:", time);
-console.log("Updated:", time);
