@@ -2,7 +2,7 @@ name: Auto Commit
 
 on:
   schedule:
-    - cron: "50 11 * * *"   # 17:20 IST
+    - cron: "35 17 * * *"   # 17:20 IST
   workflow_dispatch:
 
 permissions:
@@ -31,7 +31,7 @@ jobs:
 
       - name: Make 10 commits
         run: |
-          for i in {1..7}
+          for i in {1..1}
           do
             node scripts/update.js
             git add .
